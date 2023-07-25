@@ -115,6 +115,14 @@
     color: #1B75BB;
   }
 
+/* Burger */
+.header__burger {
+    display: none;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+  }
+
   /* Main */
 .main {
     position: relative;
