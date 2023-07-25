@@ -258,3 +258,107 @@
   .dream__button {
     margin-top: 31px;
   }
+
+  /* About */
+.about {
+    margin-top: 138px;
+  }
+  .about__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .about__item {
+    width: 555px;
+    height: 337px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  .about__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .about__img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  
+  .about-main__header {
+    margin-top: 48px;
+    color: #081F32;
+    font-family: Gelasio;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.35px;
+  }
+  .about-main__text {
+    margin-top: 25px;
+    color: #081F32;
+    width: 450px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .about-main__button {
+    margin-top: 30px;
+  }
+  
+  .about-caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 231px;
+    height: 126px;
+    border-radius: 10px;
+    background: rgba(226, 226, 226, 0.4);
+            backdrop-filter: blur(5px);
+    padding: 24px 28px 25px 27px;
+    box-sizing: border-box;
+  }
+  .about-caption__text {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-caption__left {
+    color: #081F32;
+    font-size: 18px;
+    font-family: Gelasio;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .about-caption__right {
+    color: #081F32;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%; /* 22.4px */
+  }
+  .about-caption__right span {
+    opacity: 0.8000000119;
+    color: #081F32;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .about-caption__button {
+    margin-top: 10px;
+  }
+  .about-caption__button a {
+    width: 105px;
+    height: 41px;
+    font-size: 14px;
+  }
