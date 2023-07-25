@@ -533,3 +533,124 @@
     background: white;
     cursor: pointer;
   }
+
+  /* Footer */
+.footer {
+    margin-top: 180px;
+    margin-bottom: 50px;
+  }
+  .footer__container {
+    display: flex;
+    padding-left: 56px;
+    max-width: 1251px;
+    box-sizing: border-box;
+  }
+  .footer__contacts {
+    flex: 0 1 334px;
+  }
+  .footer__about {
+    width: 260px;
+    color: #081F32;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    opacity: 0.6999999881;
+  }
+  .footer__mail {
+    margin-top: 30px;
+    color: #081F32;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.96px;
+    opacity: 0.6999999881;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    margin-top: 14px;
+  }
+  .footer-social__item {
+    position: relative;
+    height: 20px;
+    width: 20px;
+  }
+  .footer-social__item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .footer-menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 279px;
+  }
+  .footer-menu__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-menu__header {
+    margin-top: 13px;
+    color: #081F32;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 10px;
+  }
+  .footer-menu__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-menu__item {
+    color: #081F32;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    opacity: 0.6999999881;
+    transition: color 0.2s;
+  }
+  .footer-menu__item:hover {
+    color: #1B75BB;
+  }
+  
+  .subscribe__header {
+    margin-top: 13px;
+    color: #081F32;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  
+  .footer__subscribe {
+    margin-left: auto;
+  }
+  .footer__subscribe .stay__form {
+    margin: 0;
+    margin-top: 30px !important;
+  }
+  .footer__subscribe .stay__form .stay__input {
+    width: 327px;
+    height: 54px;
+  }
+  .footer__subscribe .stay__form .stay__button {
+    width: 164px;
+    height: 54px;
+  }
