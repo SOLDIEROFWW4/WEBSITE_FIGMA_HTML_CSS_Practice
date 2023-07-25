@@ -478,6 +478,81 @@
     margin-top: 31px;
   }
 
+  @media (max-width: 930px) {
+    .dream__container {
+      padding-top: 122px;
+      gap: 21px;
+    }
+    .dream__left img {
+      margin-left: 4px;
+      width: 472px;
+    }
+    .dream__right {
+      justify-content: start;
+    }
+    .dream__header {
+      width: 140px;
+      margin-top: 12px;
+    }
+    .dream__text {
+      margin-top: 32px;
+    }
+  }
+  @media (max-width: 750px) {
+    .dream__left img {
+      width: 350px;
+    }
+  }
+  @media (max-width: 630px) {
+    .dream__left img {
+      width: 48vw;
+    }
+    .dream__header {
+      font-size: 11px;
+    }
+    .dream__text {
+      font-size: 16px;
+    }
+    .dream__button a {
+      font-size: 12px;
+      width: 100px;
+      height: 40px;
+    }
+  }
+  @media (max-width: 320px) {
+    .dream__container {
+      padding-top: 67px;
+      gap: 13px;
+    }
+    .dream__left img {
+      width: 56.5vw;
+    }
+    .dream__right {
+      margin-top: -14px;
+    }
+    .dream__header {
+      width: auto;
+      font-size: 8px;
+      font-weight: 500;
+      letter-spacing: 0.8px;
+    }
+    .dream__text {
+      width: 100px;
+      margin-top: 20px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 140%;
+    }
+    .dream__button {
+      margin-top: 5px;
+    }
+    .dream__button a {
+      font-size: 8px;
+      width: 56px;
+      height: 23px;
+    }
+  }
+
   /* About */
 .about {
     margin-top: 138px;
