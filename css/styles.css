@@ -115,6 +115,44 @@
     color: #1B75BB;
   }
 
+  @media (max-width: 900px) {
+    .header__logo {
+      margin-right: 20px;
+    }
+  }
+  @media (max-width: 760px) {
+    .header__container {
+      height: 82px;
+      padding-left: 60px;
+      align-items: start;
+      padding-top: 14px;
+    }
+    .header__logo {
+      margin-top: -6px;
+    }
+    .header__logo img {
+      width: 120px;
+    }
+    .header__button {
+      margin-left: 20px;
+    }
+    .header__button a {
+      width: 112px;
+      height: 54px;
+    }
+    .header__menu {
+      flex: 0 1 540px;
+    }
+    .menu__list {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex: 0 1 375px;
+      gap: 4px;
+      align-items: start;
+      padding-top: 8px;
+    }
+  }
+
 /* Burger */
 .header__burger {
     display: none;
