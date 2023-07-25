@@ -237,6 +237,84 @@
     height: 56px;
   }
 
+  @media (max-width: 1600px) {
+    .main__img img {
+      position: absolute;
+      left: -9%;
+      top: 0;
+      bottom: 0;
+      width: 109%;
+      height: 109%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      -o-object-position: center;
+         object-position: center;
+    }
+  }
+  @media (max-width: 760px) {
+    .main__container {
+      padding-top: 212px;
+      padding-left: 77px;
+    }
+    .main__about {
+      margin-top: 0;
+    }
+    .main__button {
+      position: absolute;
+      top: 267px;
+      right: 24px;
+    }
+    .main__img {
+      width: 200%;
+    }
+    .main__img img {
+      left: -43%;
+    }
+  }
+  @media (max-width: 700px) {
+    .main__button {
+      top: 300px;
+      right: auto;
+      left: 400px;
+    }
+  }
+  @media (max-width: 550px) {
+    .main__container {
+      padding-top: 94px;
+      padding-left: 28px;
+    }
+    .main__text {
+      width: 230px;
+      font-size: 24px;
+      margin-top: 6px;
+    }
+    .main__about {
+      width: 157px;
+      font-size: 11px;
+      opacity: 0.6000000238;
+    }
+    .main__button {
+      top: 132px;
+      left: 232px;
+    }
+    .main__button a {
+      width: 79px;
+      height: 32px;
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 550px) {
+    .main {
+      height: auto;
+    }
+    .main__img {
+      height: 425px;
+    }
+    .main__img img {
+      left: -55%;
+    }
+  }
+
   .main-footer__wrapper {
     margin-top: 50px;
     margin-left: -36px;
@@ -296,6 +374,81 @@
   }
   .main-footer__button {
     margin-bottom: 5px;
+  }
+
+  @media (max-width: 1244px) {
+    .main-footer__wrapper {
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 760px) {
+    .main-footer__wrapper {
+      margin-top: 155px;
+      margin-left: 5px;
+      padding: 0 47px;
+      width: 90.5vw;
+    }
+    .main-footer__items {
+      margin-left: 8px;
+    }
+    .main-footer__item {
+      margin-bottom: 0;
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 680px) {
+    .main-footer__wrapper {
+      padding: 0 15px;
+    }
+    .main-footer__button a {
+      width: 109px;
+      height: 50px;
+    }
+    .main-footer__block {
+      margin-right: 15px;
+    }
+    .main-footer__header, .main-footer__text {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 500px) {
+    .main-footer__wrapper {
+      margin-top: 145px;
+      margin-left: 12px;
+      width: 83.5vw;
+      height: 12.5vw;
+      padding: 0;
+    }
+    .main-footer__header {
+      font-size: 2.3vw;
+      margin-bottom: 3px;
+    }
+    .main-footer__text {
+      font-size: 2.3vw;
+      margin-bottom: 3px;
+    }
+    .main-footer__items {
+      flex: none;
+      width: auto;
+    }
+    .main-footer__item {
+      width: 21.8vw;
+    }
+    .main-footer__item:nth-child(2) .main-footer__block {
+      margin-right: 5vw;
+    }
+    .main-footer__block {
+      margin-right: 1.3vw;
+    }
+    .main-footer__button {
+      margin-bottom: 0;
+      margin-right: 10px;
+    }
+    .main-footer__button a {
+      width: 13vw;
+      height: 6vw;
+      font-size: 2vw;
+    }
   }
 
   /* Dream */
