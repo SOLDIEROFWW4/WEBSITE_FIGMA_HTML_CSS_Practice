@@ -231,3 +231,30 @@
   .main-footer__button {
     margin-bottom: 5px;
   }
+
+  /* Dream */
+.dream__container {
+    display: flex;
+    padding-top: 201px;
+    gap: 99px;
+  }
+  .dream__left img {
+    margin-left: -105px;
+  }
+  .dream__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .dream__text {
+    margin-top: 15px;
+    color: #081F32;
+    font-family: Gelasio;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.3px;
+  }
+  .dream__button {
+    margin-top: 31px;
+  }
