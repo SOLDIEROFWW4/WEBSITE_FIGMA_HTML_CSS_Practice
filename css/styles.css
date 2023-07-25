@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+  }
+  
+  b {
+    font-size: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .wrapper {
+    min-height: 100%;
+    overflow: hidden;
+  }
+
+  ._container {
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box; /* Сам прибавляет padding */
+  }
+  
+  ._button a {
+    display: flex;
+    width: 134px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Gelasio";
+    font-size: 16px;
+    font-weight: 500;
+    background: #1B75BB;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+  }
+  ._button a:hover {
+    background: white;
+    border: 1px solid #1B75BB;
+    color: #1B75BB;
+  }
+  
+  ._text-header {
+    color: #1B75BB;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.8000000119;
+  }
+  
+  /* Header */
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 124px;
+  }
+  .header__logo {
+    margin-right: 100px;
+  }
+  .header__menu {
+    display: flex;
+    flex: 0 1 850px;
+    justify-content: space-between;
+  }
+  
+  .menu__list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  .menu__item {
+    list-style-type: none;
+  }
+  .menu__item a {
+    color: #081F32;
+    font-family: Gelasio;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .menu__item a:hover {
+    color: #1B75BB;
+  }
