@@ -69,7 +69,7 @@
     line-height: 150%;
     letter-spacing: 2px;
     text-transform: uppercase;
-    opacity: 0.8000000119;
+    opacity: 0.8000000120;
   }
   
   /* Header */
@@ -114,6 +114,20 @@
   .menu__item a:hover {
     color: #1B75BB;
   }
+
+  .select__item {
+    border: none;
+    user-select: none;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.8000000120;
+  }
+
+
 
   @media (max-width: 900px) {
     .header__logo {
