@@ -1,8 +1,6 @@
-let langArr = {
+const langArr = {
     "menu":
     {
-
-
         "home":
         {
             "RU": "Главная",
@@ -28,10 +26,30 @@ let langArr = {
         },
 
         "book":
+        {
+            "RU": "Забронировать",
+            "EN": "Book now"
+        }
+    },
+
+    "main":
     {
-        "RU": "Забронировать",
-        "EN": "Book now"
-    }
+        "serenity":
+        {
+            "RU": "Безмятежность",
+            "EN": "Serenity"
+        },
+
+        "text":
+        {
+            "RU": "Оставайтесь с нами как",
+            "EN": "Stay with us feel like"
+        },
+        "text-blue":
+        {
+            "RU": "дома",
+            "EN": "home"
+        }
     }
 
 }
