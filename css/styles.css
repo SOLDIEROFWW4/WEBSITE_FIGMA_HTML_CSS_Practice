@@ -115,7 +115,7 @@
     color: #1B75BB;
   }
 
-  .select__item {
+  .header__change {
     border: none;
     user-select: none;
     font-family: "Roboto";
@@ -125,6 +125,12 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     opacity: 0.8000000120;
+  }
+
+  .translate
+  {
+    background: transparent;
+    border:none;
   }
 
 

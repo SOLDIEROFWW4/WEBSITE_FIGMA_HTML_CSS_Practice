@@ -11,8 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500;600&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-    <script src="javascript/languageList.js"></script>
-    <script src="javascript/translator.js"></script>
+
     <title>Rayal Park</title>
 </head>
 
@@ -41,11 +40,9 @@
                     <div class="header__button _button" id="lng-menu-book">
                         <a href="">Book now</a>
                     </div>
-                    <div class="header__select">
-                        <select class="select__item">
-                            <option value="RU">RU</option>
-                            <option value="EN" selected>EN</option>
-                        </select>
+                    <div class="header__change">
+                        <li class="menu__item"><button id="translate" class=""><img src="./images/language/en.png" alt="ukflag" width="40px" height="30px"></button></li>
+                        <li class="menu__item"><button id="translate" class=""><img src="./images/language/ru.png" alt="ruflag" width="40px" height="30px"></button></li>
                     </div>
                 </nav>
                 <div class="header__burger">
@@ -385,6 +382,7 @@
         </footer>
 
     </div>
-
+    <script src="javascript/languageList.js"></script>
+    <script src="javascript/translator.js"></script>
 </body>
 </html>

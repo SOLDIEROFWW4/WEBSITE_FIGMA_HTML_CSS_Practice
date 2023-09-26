@@ -1,33 +1,43 @@
-const select = document.querySelector('select');
-const allLanguages = ['EN','RU'];
+const link = document.getElementById('translate');
+let language = localStorage.getItem('currentLanguage') || 'en';
 
-select.addEventListener('select__item', changeURLLanguage);
-
-function changeURLLanguage()
+link.addEventListener('click', function (event) 
 {
-    let language = select.value;
-    location.href = window.location.pathname + '#' + language;
-    location.reload();
-}
+    event.preventDefault();
+    language = language === 'en' ? 'ru' : 'en';
 
-function changeLanguage()
-{
-    let hash = window.location.hash;
-    if (!allLanguages.includes(hash))
-    {
-        location.href = window.location.pathname + '#en' + language;
-        location.reload();
-    }
-    select.value = hash;
-    document.querySelector('menu-home').innerHTML = langArr['home'][hash];
+    getTranslate();
+});
 
-    for (let key in langArr)
-    {
-        let element = document.querySelector('.lng-' + key);
-        if (elem) {
-            elem.innerHTML = langArr[key][hash];
+function getTranslate() {
+    localStorage.setItem('currentLanguage', language);
+
+    const elements = document.querySelectorAll('[id]');
+
+    elements.forEach((element) => {
+        const translationKey = element.dataset.i18n;
+
+        if (langArr.hasOwnProperty(language) && langArr[language].hasOwnProperty(translationKey)) {
+            element.textContent = langArr[language][translationKey];
         }
-    }
+    });
 }
 
-changeLanguage();
+
+
+
+
+// $(function()
+// {
+//     $(".translate").click(function()
+//     {
+//         var lang = $(this).attr('id');
+
+//         $('.lang').each(function(index,item) {
+//             $(this).text(langArr[lang][$(this).attr('id')])
+//         });
+//     });
+// });
+
+
+
