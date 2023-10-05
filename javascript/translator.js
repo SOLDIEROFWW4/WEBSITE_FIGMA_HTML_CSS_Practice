@@ -12,7 +12,7 @@ link.addEventListener('click', function (event)
 function getTranslate() {
     localStorage.setItem('currentLanguage', language);
 
-    const elements = document.querySelectorAll('[id]');
+    const elements = document.querySelectorAll('[data-langArr]');
 
     elements.forEach((element) => {
         const translationKey = element.dataset.i18n;
@@ -23,21 +23,6 @@ function getTranslate() {
     });
 }
 
-
-
-
-
-// $(function()
-// {
-//     $(".translate").click(function()
-//     {
-//         var lang = $(this).attr('id');
-
-//         $('.lang').each(function(index,item) {
-//             $(this).text(langArr[lang][$(this).attr('id')])
-//         });
-//     });
-// });
 
 
 

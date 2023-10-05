@@ -1,55 +1,58 @@
 const langArr = {
-    "menu":
-    {
-        "home":
+        "lng-menu-home":
         {
-            "RU": "Главная",
-            "EN": "Home"
+            "ru": "Главная",
+            "en": "Home"
         },
 
-        "features":
+        "lng-menu-features":
         {
-            "RU": "Особенности",
-            "EN": "Features"
+            "ru": "Особенности",
+            "en": "Features"
         },
 
-        "gallary":
+        "lng-menu-gallary":
         {
-            "RU": "Галлерея",
-            "EN": "Gallary"
+            "ru": "Галлерея",
+            "en": "Gallary"
         },
 
-        "testimonials":
+        "lng-menu-testimonials":
         {
-            "RU": "Рекомендации",
-            "EN": "Testimonials"
+            "ru": "Рекомендации",
+            "en": "Testimonials"
         },
 
-        "book":
+        "lng-menu-book":
         {
-            "RU": "Забронировать",
-            "EN": "Book now"
-        }
-    },
-
-    "main":
-    {
-        "serenity":
-        {
-            "RU": "Безмятежность",
-            "EN": "Serenity"
+            "ru": "Забронировать",
+            "en": "Book now"
         },
 
-        "text":
+        "lng-main-serenity":
         {
-            "RU": "Оставайтесь с нами как",
-            "EN": "Stay with us feel like"
+            "ru": "Безмятежность",
+            "en": "Serenity"
         },
-        "text-blue":
+
+        "lng-main-text":
         {
-            "RU": "дома",
-            "EN": "home"
+            "ru": "Оставайтесь с нами как",
+            "en": "Stay with us feel like"
+        },
+        "lng-main-text-blue":
+        {
+            "ru": "дома",
+            "en": "home"
+        },
+        "lng-main-text-about":
+        {
+            "ru":"Отели, в которых разрешено проживание с домашними животными, становятся все более популярными; они привлекательны для путешественников, которые не выносят разлуки.",
+            "en":"Pet-friendly hotels are becoming increasingly popular; appealing to travellers who can’t bear to be parted."
+        },
+        "lng-main-text-read-more":
+        {
+            "ru": "Подробнее",
+            "en": "Read more"
         }
     }
-
-}
